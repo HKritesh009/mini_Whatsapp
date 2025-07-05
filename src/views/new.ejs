@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Chat</title>
+    <link rel="stylesheet" href="/root.css">
+</head>
+<body>
+    <%- include("includes/head.ejs") %>
+    <h2>New Chat</h2>
+    <hr>
+    <form action="/chats" method="post">
+
+        <input placeholder="who are you" type="text" name="from">
+        <br>
+        <input  placeholder="To whom " type="text" name="to" id="">
+        <br>
+        <textarea placeholder="Enter your msg" name="msg" id="" cols="30" rows="10"></textarea>
+        <br>
+        <button>Send</button>
+
+    </form>
+</body>
+</html>

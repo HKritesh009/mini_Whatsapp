@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/root.css">
+</head>
+<body>
+    <%- include("includes/head.ejs") %>
+      <h2>edit Chat</h2>
+    <hr>
+    <div class="individualChat">
+     <p>From:&nbsp <%= individualChat.from %></p> 
+     <p>To:&nbsp <%=chat.to %></p>
+     <form action="/chats/<%= individualChat._id %>?_method=PUT" method="POST">
+        <textarea name="msg"><%= individualChat.msg %></textarea>
+        <button type="submit">Update</button>
+      </form>           
+    </div>
+</body>
+</html>

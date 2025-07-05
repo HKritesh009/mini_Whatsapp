@@ -1,0 +1,177 @@
+/* root.css */
+
+/* --- Global Styles --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e5ddd5; /* WhatsApp background color */
+    color: #202c33;
+    margin: 0;
+    padding: 1rem;
+    line-height: 1.5;
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+}
+  
+/* Header */
+.app-header {
+    background-color: #075e47; /* WhatsApp dark green */
+    color: white;
+    padding: 0.8rem 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .logo img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .logo span {
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+  }
+  
+
+  /* Headings */
+  h2 {
+    color: #075e54; /* WhatsApp green */
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #25d366; /* WhatsApp bright green */
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 0.5rem;
+  }
+  
+  button:hover {
+    background-color: #128c43;
+  }
+  
+  /* Forms */
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    font-family: inherit;
+  }
+  
+  /* Chat list container */
+  .chats {
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.1);
+    max-width: 600px;
+  }
+  
+  /* Individual chat message styling */
+  .chats .from,
+  .chats .to {
+    font-weight: 600;
+    color: #128c7e;
+  }
+  
+  .chats .msg {
+    background-color: #dcf8c6; /* Light green bubble */
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    max-width: 80%;
+    word-wrap: break-word;
+  }
+  
+  /* Created and updated timestamps */
+  .created,
+  .updated {
+    font-size: 0.75rem;
+    color: #999;
+    margin-top: 0.25rem;
+  }
+  
+  /* Forms inside chat (Edit/Delete buttons) */
+  .chats form {
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+  
+  .chats form button {
+    padding: 0.3rem 0.8rem;
+    font-size: 0.85rem;
+    border-radius: 12px;
+  }
+  
+  /* Individual chat edit page */
+  .individualChat {
+    background: white;
+    padding: 1rem;
+    border-radius: 15px;
+    max-width: 600px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.1);
+  }
+  
+  .individualChat p {
+    margin: 0.3rem 0;
+    color: #128c7e;
+    font-weight: 600;
+  }
+  
+  /* Textarea for edit */
+  .individualChat textarea {
+    min-height: 100px;
+    font-size: 1rem;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    width: 100%;
+    resize: vertical;
+    font-family: inherit;
+  }
+  
+  /* Form layout for new chat */
+  form[action="/chats"] input,
+  form[action="/chats"] textarea {
+    max-width: 600px;
+    background: white;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.1);
+  }
+  
+  /* Responsive */
+  @media (max-width: 640px) {
+    body {
+      padding: 0.5rem;
+    }
+    .chats, .individualChat, form[action="/chats"] input, form[action="/chats"] textarea {
+      max-width: 100%;
+    }
+  }
+  

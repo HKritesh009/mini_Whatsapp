@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Chats</title>
+    <link rel="stylesheet" href="root.css">
+</head>
+<body>
+    <%- include("includes/head.ejs") %>
+    <h2>All chats</h2>
+    <form method="get" action="/chats/new">
+        <button>New Chat</button>
+    </form>
+    <hr>
+    <% for(chat of chats ){%>
+        <div class="chats">
+            <p class="from">From:&nbsp; <%= chat.from %>
+            </p>
+            <br>
+            <div class="msg">
+                Msg: &nbsp;<%= chat.msg %>
+            </div>
+            <br>
+            <p class="to">To: &nbsp;<%= chat.to %>
+            </p>
+            <p class="created">Created_At: &nbsp;<%= chat.created_at.toString().split(" ").slice(0,5).join(" ") %></p>
+            <% if (chat.last_update != null) { %>
+                <p class="updated">
+                  Last Updated:&nbsp;
+                  <%= chat.last_update.toString().split(" ").slice(0, 5).join(" ") %>
+                </p>
+              <% } %> 
+    <br>
+    <!-- <p> <%= chat.id %></p> -->
+       <form action=" /chats/<%=chat._id%>/edit">
+                    <button>Edit</button>
+                    </form>
+                    &nbsp
+                    <form action="/chats/<%=chat._id%>?_method=DELETE" method="post">
+                        <button>Delete for Everyone</button>
+                    </form>
+        </div>
+        <hr>
+        <% } %>
+</body>
+
+</html>
