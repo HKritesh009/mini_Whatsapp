@@ -1,12 +1,19 @@
-# 💬 mini Whatsp — A Learning-Oriented WhatsApp Clone
-
-![License](https://img.shields.io/badge/license-MIT-green)
-![Node](https://img.shields.io/badge/backend-Node.js-brightgreen)
-![MongoDB](https://img.shields.io/badge/database-MongoDB-brightgreen)
-![EJS](https://img.shields.io/badge/view-EJS-yellow)
+# 💬 mini Whatsp — A Learning-Oriented WhatsApp Chat Feature
 
 <p align="center">
-  <img src="https://github.com/yourusername/mini-whatsp/assets/demo-animation.gif" alt="Mini Whatsp Demo" width="600"/>
+  <strong>A WhatsApp-style chat app built with Node.js, Express, MongoDB, and EJS</strong>
+</p>
+
+<p align="center">
+  🚀 Learn RESTful APIs · 🧠 Master CRUD · 🎨 WhatsApp-themed UI
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white&animation=glitch" alt="Node.js Badge"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white&animation=glitch" alt="Express.js Badge"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white&animation=glitch" alt="MongoDB Badge"/>
+  <img src="https://img.shields.io/badge/EJS-white?style=for-the-badge&logo=EJS&logoColor=black&animation=glitch" alt="EJS Badge"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&animation=glitch" alt="CSS3 Badge"/>
 </p>
 
 ---
