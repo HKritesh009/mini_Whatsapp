@@ -51,26 +51,6 @@
 
 ---
 
-## 📁 Folder Structure
-
-src/
-├── models/
-│   └── chat.js                  # Mongoose schema for chat messages
-├── public/
-│   ├── root.css                 # WhatsApp-inspired global styles
-│   └── logo.svg                 # App icon used in the header
-├── views/
-│   ├── includes/
-│   │   └── head.ejs             # Shared <head> partial (meta, styles)
-│   ├── index.ejs                # Displays all chats
-│   ├── new.ejs                  # Form to create a new chat
-│   └── update.ejs               # Form to edit an existing chat
-├── index.js                     # Main Express server file
-├── package.json                 # Project metadata and dependencies
-
-
----
-
 ## 🌐 RESTful Routes
 
 | Route              | HTTP Verb | Description            |
@@ -131,6 +111,26 @@ If you’re just starting out and want to tweak it, fork and experiment!
 
 ## 📄 License
 This project is licensed under the MIT License.
+
+---
+
+### 🛠️ Made With
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/EJS-ffffff?style=for-the-badge&logo=ejs&logoColor=black" />
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
+
+---
+
+<p align="center">
+  Made with ❤️ by Ritesh as a learning project — mini Whatsp 📱
+</p>
+
 
 
 
