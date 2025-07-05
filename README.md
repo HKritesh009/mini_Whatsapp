@@ -49,11 +49,11 @@
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/173917.png" width="30%" />
+  <img src="screenshots/173917.png" width="60%" />
   &nbsp;&nbsp;
-  <img src="screenshots/173954.png" width="30%" />
+  <img src="screenshots/173954.png" width="60%" />
   &nbsp;&nbsp;
-  <img src="screenshots/174015.png width="30%" />
+  <img src="screenshots/174015.png" width="60%" />
 </p>
 
 ---
