@@ -1,4 +1,4 @@
-# 💬 mini Whatsp — A Learning-Oriented WhatsApp Chat Feature
+# 💬 Mini Whatsp — A Learning-Oriented WhatsApp Chat Feature
 
 <p align="center">
   <strong>A WhatsApp-style chat app built with Node.js, Express, MongoDB, and EJS</strong>
@@ -43,6 +43,18 @@
 - ✅ Timestamps: `created_at` and `last_update`
 - ✅ WhatsApp-like styling with a custom header & logo
 - ✅ Clean modular file structure
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/home.png" width="30%" />
+  &nbsp;&nbsp;
+  <img src="screenshots/new-chat.png" width="30%" />
+  &nbsp;&nbsp;
+  <img src="screenshots/Screenshot 2025-07-05 174015.png width="30%" />
+</p>
 
 ---
 
