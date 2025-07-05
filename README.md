@@ -49,11 +49,11 @@
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/home.png" width="30%" />
+  <img src="screenshots/173917.png" width="30%" />
   &nbsp;&nbsp;
-  <img src="screenshots/new-chat.png" width="30%" />
+  <img src="screenshots/173954.png" width="30%" />
   &nbsp;&nbsp;
-  <img src="screenshots/Screenshot 2025-07-05 174015.png width="30%" />
+  <img src="screenshots/174015.png width="30%" />
 </p>
 
 ---
