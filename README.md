@@ -53,6 +53,20 @@
 
 ## 📁 Folder Structure
 
+src/
+├── models/
+│   └── chat.js                  # Mongoose schema for chat messages
+├── public/
+│   ├── root.css                 # WhatsApp-inspired global styles
+│   └── logo.svg                 # App icon used in the header
+├── views/
+│   ├── includes/
+│   │   └── head.ejs             # Shared <head> partial (meta, styles)
+│   ├── index.ejs                # Displays all chats
+│   ├── new.ejs                  # Form to create a new chat
+│   └── update.ejs               # Form to edit an existing chat
+├── index.js                     # Main Express server file
+├── package.json                 # Project metadata and dependencies
 
 
 ---
@@ -95,4 +109,29 @@
   ```bash
   http://localhost:8080/chats
   ```
+
+## 🔍 Learning Outcomes
+- Understand full-stack architecture (MVC)
+
+- Use MongoDB with Mongoose schemas
+
+- Build RESTful routes with Express
+
+- Style using custom CSS like WhatsApp
+
+- Connect backend logic with EJS templating
+
+- Use method-override to simulate PUT/DELETE
+
+- Handle form submissions and redirects
+
+## 📬 Contribution
+This is a learning project, but PRs and suggestions are welcome!
+If you’re just starting out and want to tweak it, fork and experiment!
+
+## 📄 License
+This project is licensed under the MIT License.
+
+
+
 
